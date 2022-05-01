@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <div class="form">
+        <form action="mail.php" name="form" method="get">
+            <h2>Registration</h2>
+            Name:<input type="text" name="name" required placeholder="Name" ><br>
+            Surname:<input type="text" name="surname" required placeholder="Surname"><br>
+            Country:<select name="country" id="country" size="1"><br>
+                <option>Azerbaijan</option>
+                <option>Russia</option>
+                <option>Georgia</option>
+                <option>France</option>
+                <option selected>Canada</option>
+                <option>Germany</option>
+                <option>Spain</option>
+                <option>Latvia</option>
+                <option>Litva</option>
+            </select><br>
+            Phone<input type="number" name="tel" required placeholder="Enter your phone number"><br>
+            Password:<input type="password" name="password" required placeholder="Enter your password"><br>
+            Confirm password:<input type="password" name="cpassword" required placeholder="Confirm your password"><br>
+            <textarea cols="30" rows="5" placeholder="Not required!"></textarea><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Cancel">
+        </form> 
+    </div>
+</body>
+</html>
